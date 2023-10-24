@@ -39,8 +39,10 @@ The script will generate three result files.
 
 `intersection.bed` : This file contains the intersecting predictions between the `xpore` and `tombo` methods. It is specifically formatted as a table and can be easily loaded into applications such as the Integrated Genome Viewer (IGV) tools. The predictions in this file represent regions where both methods agree on their findings, making it useful for focused analysis and visualization.
 
-`intersection.pdf` : : This file is a graphical representation of the intersecting predictions between the `xpore` and `tombo` methods. It is generated as a Venn diagram, which visually depicts the overlapping regions between the two methods.
+`intersection.pdf` : : This file is a graphical representation of the intersecting predictions between the `xpore` and `tombo` methods. It is generated as a Venn diagram, which visually depicts the overlapping regions between the two methods such as below.
 
+
+![图片描述](./intersection_result/img.png)
 ## 4. Example
 
 ```
