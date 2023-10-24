@@ -160,8 +160,8 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--tombo_result", default='sample',help="suffix of tombo result")
-    parser.add_argument("--xpore_result", default="xpore_result",help="result folder from xPore")
-    parser.add_argument("--ref", default='/t1/zhguo/Data/Alpha_virus_data/SINV/SINV_Toto1101.fa', help='reference path')
+    parser.add_argument("--xpore_result", default="xpore_result",help="diffmod.table in the result folder from xPore")
+    parser.add_argument("--ref", default='reference file', help='reference path')
     parser.add_argument("--output", default='intersection_result', help='result path')
     args = parser.parse_args()
     main(args)

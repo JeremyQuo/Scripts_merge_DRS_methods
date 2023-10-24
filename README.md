@@ -2,18 +2,17 @@
 Scripts to merge tombo and xPore results from ONT data in our Paper (Utilization of Nanopore Direct RNA Sequencing to analyze intracellular viral RNA modifications of Sindbis virus)
 
 ## 1. Install
-
+```
 pip install pandas
-
 pip install matplotlib_venn
-
+```
 ## 2. Usage
 
 This script will help if you get the results from tombo and xPore
 
 For tombo_result should be the suffix of tombo result files,such as `sample.level_samp_comp_detect`
 
-And xpore_result should be the path of diffmod.table
+And xpore_result should be the path of `diffmod.table`
 
 The following part is the options of this python script.
 
@@ -26,9 +25,10 @@ optional arguments:
   --tombo_result TOMBO_RESULT
                         suffix of tombo result
   --xpore_result XPORE_RESULT
-                        result folder from xPore
+                        diffmod.table in the result folder from xPore
   --ref REF             reference path
   --output OUTPUT       result path
+
 ```
 
 ## 3. Output
